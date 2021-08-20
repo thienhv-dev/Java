@@ -1,0 +1,15 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<CENTER>
+        <h1><b>Đăng nhập hệ thống</b></h1>
+
+<H4>
+<form method="POST"  action="dologin.jsp">
+<TABLE>
+<TR><TD >Mã Khách Hàng</TD><TD><input type="text" name="accno" size="25"></TD></TR>
+<TR><TD >Mật khẩu</TD><TD><input type="password" name="pw" size="25"></TD></TR>
+</TABLE>
+<p>
+<input type="submit" value="Submit" onclick="return checkNull(accno);" >
+<input type="reset" value="Reset">
+</form>
+</CENTER>

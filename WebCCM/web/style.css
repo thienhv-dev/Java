@@ -1,0 +1,91 @@
+
+a:link {
+color:#00FFFF;
+text-decoration:none;}
+a:visited {
+color:#00FFFF;
+text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {
+color:#00FFFF;
+text-decoration:none;}
+
+a.a:visited {
+color: #00FFFF;
+text-decoration:none;}
+a.b:link {
+color:#00FFFF;
+text-decoration:none;}
+a.c:link {
+color:#00FFFF;
+text-decoration:none;}
+#main {
+width:1024px;
+margin:auto;
+background:#CCFFCC;
+
+}
+#head
+{
+width:100%;
+}
+#left
+{
+width:20%	;
+float:left;
+clear:both;
+}
+#center
+{
+text-align:justify;
+width:60%;
+float:left;
+color:#000000;
+}
+#right
+{
+width:20%;
+float:right;
+}
+
+#copyright
+{
+
+width:100%;
+text-align:center;
+clear:both;
+}
+#ngayh
+{
+width:100%;
+background:#c3eafa;
+font-weight:bold;
+font-size:9px;
+float:left;
+font-weight:bold;
+font-size:13px;
+}
+
+
+#noibat
+{
+
+width:100%;
+margin-bottom:auto;
+clear:both;
+
+}
+#menuc
+{
+
+width:100%;
+margin-bottom:auto;
+clear:both;
+color:#FFFFFF;
+
+}
+
+#menub
+{
+width:100%;
+}

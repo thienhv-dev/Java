@@ -1,0 +1,7 @@
+  TD { font-family: "Tahoma"; text-indent: 10px }
+  H1 { font-family: "Verdana"; font-size: medium; text-align: center}
+  H3 { font-family: "Verdana"; text-align: center}
+  BODY { font-family: "Verdana"}
+  .header { font-family: "Verdana"; font-size: x-small; color: blue; text-align: center; }
+  .data { font-family: "Verdana"; font-size: xx-small; color:#003399; text-align: right; }	
+  .right { padding-right: 10px }

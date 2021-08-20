@@ -1,0 +1,32 @@
+﻿<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<meta charset="UTF-8">
+<CENTER>
+<h1><b>Đăng Kí Mở Thẻ</b></h1>
+ <form method="POST" action="registrationcard.jsp">
+<TABLE>
+    <TR><TD>Mã Thẻ : </TD><TD><input type="text" name="Mathe" size="25"></TD></TR>
+    <tr>  <TD>Pin : </TD>
+        <TD><input type="password" name="pin" size="25" value="123"></TD></tr>
+
+    <TR><TD>Hạn Mức : </TD><TD><select name="HanMuc">
+                <option value="50000000">50000000</option>
+                <option value="70000000">70000000</option>
+                <option value="80000000">80000000</option>
+                <option value="100000000">100000000</option></select></TD></tr>
+<tr>
+            <TD>Loại Thẻ:</TD>
+            <TD>                
+                <INPUT type="radio" name="loaithe" value="Visa">Visa
+                <INPUT type="radio" name="loaithe" value="Master">Master
+                
+             </TD>
+        </tr>    
+<tr>   <TD>Mã Khách Hàng : </TD><TD><input  type="text" name="MaKH" size="25" placeholder="KH?????"></TD></TR>
+<TR><TD>Tháng Hết Hạn : </TD><TD><input type="text" name="Monthhethan" size="25" ></TD></tr>
+<tr> <TD>Năm Hết Hạn : </TD><TD><input type="text" name="Namhethan" size="25"></TD></TR>
+</TABLE>
+<p>
+<input type="submit" value="Submit" >
+<input type="reset" value="Reset">
+</form>
+</CENTER>

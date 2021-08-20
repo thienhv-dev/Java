@@ -1,0 +1,167 @@
+ h1 {
+        color:#0099ff;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+        letter-spacing: 5px;
+        font: 30px 'MisoRegular';
+}
+a:link, a:visited { 
+color : #795169; 
+text-decoration : none; 
+} 
+a:hover { 
+color : #ce7e06; 
+text-decoration : none; 
+}
+.text {
+	margin: 2px 0px;
+	padding: 2px;
+	background-color: #f3fdff;
+	border: 1px solid #6bcbce;
+}
+input, textarea, select {
+color : #6d6d6d;
+background-color : #fbfbfb;
+border : 1px solid #e3e3e3;
+}
+input:hover, textarea:hover, select:hover {
+color : #8f8f8f;
+background-color : #f4f4f4;
+border : 1px solid #d7d7d7;
+}
+input:focus, textarea:focus, select:focus {
+color : #00bae8;
+background-color : #edf9fd;
+border : 1px solid #c2e3ec;
+}
+BODY { 
+color:#0089ab;
+font-size : 14px; 
+font-family : Tahoma; 
+background-color : #ffefcd; 
+margin : 0; 
+padding : 0; 
+} 
+form { 
+margin : 0; 
+padding : 0; 
+} 
+h3 { 
+margin : 0; 
+padding : 0; 
+padding-bottom : 2px; 
+} 
+hr { 
+margin-top : 2px; 
+margin-bottom : 2px; 
+border-top : 1px solid #e3e3e3; 
+border-right-style : none; 
+border-right-width : 0; 
+border-bottom-style : none; 
+border-bottom-width : 0; 
+border-left-style : none; 
+border-left-width : 0; 
+} 
+p { 
+margin-top : 6px; 
+margin-bottom : 6px; 
+} 
+ul { 
+margin : 0; 
+padding-left : 20px; 
+} 
+
+.gmenu a { 
+color : #c2790a; 
+border-bottom : 1px dotted #dfcea1; 
+} 
+.gmenu a:hover { 
+color : #c24c0a; 
+border-bottom : 1px dotted #ac592a; 
+} 
+.gray { 
+color : #a895a0; 
+} 
+.green { 
+color : #66bd00; 
+} 
+.header, .footer { 
+background-image : url(http://mackie.wapsite.me/images/header.gif); 
+color : #fbf3de; 
+background-color : #462739; 
+background-repeat : repeat-x; 
+background-position : 50% top; 
+margin-bottom : 1px; 
+padding : 2px; 
+border-top : 1px solid #5b364c; 
+border-bottom : 1px solid #5b364c; 
+} 
+.footer a { 
+color : #fbf3de; 
+text-decoration : none; 
+border-bottom : 1px dotted #c19cb3; 
+} 
+.footer a:hover { 
+color : #dbc9d4; 
+text-decoration : none; 
+border-bottom : 1px dotted #c6b6c0; 
+} 
+.left { 
+float : left; 
+} 
+
+.maintxt { 
+background-color : #fffef8; 
+margin : 1px; 
+padding-right : 1px; 
+padding-left : 1px; 
+border : 1px solid #d4cbbd; 
+} 
+
+.tmn a:link, .tmn a:visited { 
+color : #52462b; 
+text-decoration : none; 
+border-bottom : 1px dotted #ffd793; 
+} 
+.tmn a:hover { 
+color : #a45182; 
+border-bottom : 1px dotted #82536f; 
+}
+#ttm img{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #686666;
+    width: 100% ;
+    height: 170px;
+    text-align: center;
+}
+.pleft ul li{
+  display: inline-block;
+  width: 200px;
+  margin-left: 5px;
+  float: left;
+}
+.pleft ul{
+    width: 620px;
+}
+.products{
+    margin-left: 50px;
+    float: left;
+    width: 1000px;
+    margin-top: 20px;
+}
+.pleft{
+    width: 620px;
+}
+.pright{
+    float:left;
+}
+#slide{
+    width: 800px;
+    height: 400px;
+    margin-left: 400px;
+    border: 1px solid #ccc;
+}
+#slide img{
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,21 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         </head>
+<CENTER>
+<h1><b>Đăng ký </b></h1>
+<H1>Thông tin Khách Hàng</H1>
+<form method="POST" name="regForm" action="register.jsp" >
+<TABLE>
+ <TR><TD>Mã khách hàng </TD><TD><input type="text" name="MaKH" size="25"></TD></TR>
+<TR><TD>Họ và tên </TD><TD><input type="text" name="Hoten" size="25"></TD></TR>
+<TR><TD>Mật khẩu</TD><TD><input type="password" name="Matkhau" size="25"></TD></TR>
+<TR><TD>Chứng minh nhân dân </TD><TD><input type="text" name="CMND" size="25"></TD></TR>
+<TR><TD>Email</TD><TD><input type="text" name="Email" size="25"></TD></TR>
+</TABLE>
+<p>
+<input type="submit" value="Submit" onclick="return checkForm();">
+<input type="reset" value="Reset">
+</form>
+</CENTER>
